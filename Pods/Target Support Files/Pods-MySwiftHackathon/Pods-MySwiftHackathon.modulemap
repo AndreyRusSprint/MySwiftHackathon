@@ -1,0 +1,6 @@
+framework module Pods_MySwiftHackathon {
+  umbrella header "Pods-MySwiftHackathon-umbrella.h"
+
+  export *
+  module * { export * }
+}

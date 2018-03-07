@@ -12,9 +12,12 @@
 		9A92E063204FB66700A21DDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A92E061204FB66700A21DDD /* Main.storyboard */; };
 		9A92E065204FB66700A21DDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A92E064204FB66700A21DDD /* Assets.xcassets */; };
 		9A92E068204FB66700A21DDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A92E066204FB66700A21DDD /* LaunchScreen.storyboard */; };
+		E3814CA533B5602BA447B5F4 /* Pods_MySwiftHackathon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D86D83039328F0A0EA1EBA1 /* Pods_MySwiftHackathon.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D86D83039328F0A0EA1EBA1 /* Pods_MySwiftHackathon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MySwiftHackathon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64E64BF48CC038E5047B04F1 /* Pods-MySwiftHackathon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySwiftHackathon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MySwiftHackathon/Pods-MySwiftHackathon.debug.xcconfig"; sourceTree = "<group>"; };
 		9A92E05A204FB66700A21DDD /* MySwiftHackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySwiftHackathon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A92E05D204FB66700A21DDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A92E05F204FB66700A21DDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		9A92E064204FB66700A21DDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A92E067204FB66700A21DDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A92E069204FB66700A21DDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBA24E26C58091027075F773 /* Pods-MySwiftHackathon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySwiftHackathon.release.xcconfig"; path = "Pods/Target Support Files/Pods-MySwiftHackathon/Pods-MySwiftHackathon.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3814CA533B5602BA447B5F4 /* Pods_MySwiftHackathon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E5363DF026B21C0ECA3DFB3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				64E64BF48CC038E5047B04F1 /* Pods-MySwiftHackathon.debug.xcconfig */,
+				CBA24E26C58091027075F773 /* Pods-MySwiftHackathon.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9A92E051204FB66700A21DDD = {
 			isa = PBXGroup;
 			children = (
 				9A92E05C204FB66700A21DDD /* MySwiftHackathon */,
 				9A92E05B204FB66700A21DDD /* Products */,
+				4E5363DF026B21C0ECA3DFB3 /* Pods */,
+				C7664F29FC6E0CDB6F3EADBF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +80,14 @@
 			path = MySwiftHackathon;
 			sourceTree = "<group>";
 		};
+		C7664F29FC6E0CDB6F3EADBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D86D83039328F0A0EA1EBA1 /* Pods_MySwiftHackathon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A92E06C204FB66700A21DDD /* Build configuration list for PBXNativeTarget "MySwiftHackathon" */;
 			buildPhases = (
+				43C75061E1AAA2C231EFAF56 /* [CP] Check Pods Manifest.lock */,
 				9A92E056204FB66700A21DDD /* Sources */,
 				9A92E057204FB66700A21DDD /* Frameworks */,
 				9A92E058204FB66700A21DDD /* Resources */,
+				FAAE837D8C16AA5C68314BEE /* [CP] Embed Pods Frameworks */,
+				2434781BEF2F3F235B6274D9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,6 +157,57 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2434781BEF2F3F235B6274D9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MySwiftHackathon/Pods-MySwiftHackathon-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43C75061E1AAA2C231EFAF56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MySwiftHackathon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAAE837D8C16AA5C68314BEE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MySwiftHackathon/Pods-MySwiftHackathon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9A92E056204FB66700A21DDD /* Sources */ = {
@@ -272,31 +350,35 @@
 		};
 		9A92E06D204FB66700A21DDD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64E64BF48CC038E5047B04F1 /* Pods-MySwiftHackathon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B2J4MJCZ5D;
 				INFOPLIST_FILE = MySwiftHackathon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = my.MySwiftHackathon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		9A92E06E204FB66700A21DDD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBA24E26C58091027075F773 /* Pods-MySwiftHackathon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B2J4MJCZ5D;
 				INFOPLIST_FILE = MySwiftHackathon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = my.MySwiftHackathon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
