@@ -23,6 +23,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.94528013470000005" green="0.94251304859999996" blue="0.95903426410000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Модуль1"/>
+                                <connections>
+                                    <action selector="openFirstModule:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NVe-Zj-hLT"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LzG-Gm-ccd">
                                 <rect key="frame" x="16" y="140" width="343" height="43"/>

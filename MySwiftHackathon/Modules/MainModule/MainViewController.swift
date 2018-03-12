@@ -13,5 +13,10 @@ class MainViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-        
+    
+    @IBAction func openFirstModule(_ sender: UIButton) {
+        if let firstModuleVC = FirstModuleViewController.storyboardInstance() {
+            self.navigationController?.pushViewController(firstModuleVC, animated: true)
+        }
+    }
 }
