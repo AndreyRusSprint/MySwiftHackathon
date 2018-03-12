@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SwipeTableViewController: UIViewController, UITableViewDelegate, UITableViewDataSource  {
+class SwipeTableViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     @IBOutlet weak var tableView: UITableView!
     
@@ -19,7 +19,7 @@ class SwipeTableViewController: UIViewController, UITableViewDelegate, UITableVi
     }
     
     func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath) -> [UITableViewRowAction]? {
-        let delete = UITableViewRowAction(style: .destructive, title: "Delete") { action, index in
+        let delete = UITableViewRowAction(style: .destructive, title: "Delete") { _, _ in
             self.numbers.remove(at: indexPath.row)
             self.tableView.reloadData()
         }
