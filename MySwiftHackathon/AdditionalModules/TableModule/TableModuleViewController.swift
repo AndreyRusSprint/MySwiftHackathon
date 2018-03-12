@@ -1,5 +1,5 @@
 //
-//  FirstModuleViewController.swift
+//  TableModuleViewController.swift
 //  MySwiftHackathon
 //
 //  Created by macmini on 12.03.2018.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FirstModuleViewController: UIViewController {
+class TableModuleViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

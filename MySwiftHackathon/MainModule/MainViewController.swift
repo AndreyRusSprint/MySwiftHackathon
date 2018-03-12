@@ -14,8 +14,8 @@ class MainViewController: UIViewController {
         super.viewDidLoad()
     }
     
-    @IBAction func openFirstModule(_ sender: UIButton) {
-        if let firstModuleVC = FirstModuleViewController.storyboardInstance() {
+    @IBAction func openTableModule(_ sender: UIButton) {
+        if let firstModuleVC = TableModuleViewController.storyboardInstance() {
             self.navigationController?.pushViewController(firstModuleVC, animated: true)
         }
     }
