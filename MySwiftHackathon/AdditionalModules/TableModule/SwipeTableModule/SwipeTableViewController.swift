@@ -8,20 +8,29 @@
 
 import UIKit
 
-class SwipeTableViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class SwipeTableViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
     
-    var numbers = ["1", "2", "3", "4", "5"]
+    private var numbersArray = [0, 1, 2, 3, 4]
     
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     
+    @IBAction func addItem(_ sender: UIBarButtonItem) {
+        numbersArray.append(numbersArray.count)
+        tableView.reloadData()
+    }
+    
+}
+
+extension SwipeTableViewController: UITableViewDelegate, UITableViewDataSource {
+    
     func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath) -> [UITableViewRowAction]? {
         let delete = UITableViewRowAction(style: .destructive, title: "Delete") { _, _ in
-            self.numbers.remove(at: indexPath.row)
-            self.tableView.reloadData()
+            self.numbersArray.remove(at: indexPath.row)
+            self.tableView.deleteRows(at: [indexPath], with: .automatic)
         }
         return [delete]
     }
@@ -31,13 +40,12 @@ class SwipeTableViewController: UIViewController, UITableViewDelegate, UITableVi
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return numbers.count
+        return numbersArray.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        cell.textLabel?.text = numbers[indexPath.row]
+        cell.textLabel?.text = "\(numbersArray[indexPath.row])"
         return cell
     }
-
 }
