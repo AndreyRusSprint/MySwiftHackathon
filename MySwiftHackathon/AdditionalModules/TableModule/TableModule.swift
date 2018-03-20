@@ -1,5 +1,5 @@
 //
-//  TableModuleViewController.swift
+//  TableModule.swift
 //  MySwiftHackathon
 //
 //  Created by macmini on 12.03.2018.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TableModuleViewController: UIViewController {
+class TableModule: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

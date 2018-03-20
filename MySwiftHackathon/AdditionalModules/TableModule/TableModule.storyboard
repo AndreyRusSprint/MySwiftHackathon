@@ -13,7 +13,7 @@
         <!--TableModule-->
         <scene sceneID="zoU-gG-aOh">
             <objects>
-                <viewController id="z0s-AK-IEy" customClass="TableModuleViewController" customModule="MySwiftHackathon" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="z0s-AK-IEy" customClass="TableModule" customModule="MySwiftHackathon" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Vna-e7-Pcp">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -37,10 +37,10 @@
             </objects>
             <point key="canvasLocation" x="312.80000000000001" y="126.38680659670166"/>
         </scene>
-        <!--SwipeTableViewController-->
+        <!--SwipeTable-->
         <scene sceneID="cng-sv-7Yh">
             <objects>
-                <viewControllerPlaceholder storyboardName="SwipeTableViewController" id="xnm-XM-14y" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="SwipeTable" id="xnm-XM-14y" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xuz-N1-ovM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1100" y="127.28635682158921"/>

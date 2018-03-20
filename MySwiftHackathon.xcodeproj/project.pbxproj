@@ -7,27 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9A35CA282058EC9000B38B68 /* SwipeTableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A35CA272058EC9000B38B68 /* SwipeTableViewController.storyboard */; };
-		9A5B695120563227008E9D6A /* TableModuleViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A5B695020563227008E9D6A /* TableModuleViewController.storyboard */; };
+		9A35CA282058EC9000B38B68 /* SwipeTable.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A35CA272058EC9000B38B68 /* SwipeTable.storyboard */; };
+		9A5B695120563227008E9D6A /* TableModule.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A5B695020563227008E9D6A /* TableModule.storyboard */; };
 		9A5B695320563235008E9D6A /* SwipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5B695220563235008E9D6A /* SwipeTableViewController.swift */; };
 		9A5B6959205640DD008E9D6A /* ViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5B6958205640DD008E9D6A /* ViewControllerExtensions.swift */; };
-		9A5B696020565132008E9D6A /* TableModuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5B695F20565132008E9D6A /* TableModuleViewController.swift */; };
+		9A5B696020565132008E9D6A /* TableModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5B695F20565132008E9D6A /* TableModule.swift */; };
 		9A876F75204FEA940037CE8E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A876F74204FEA940037CE8E /* MainViewController.swift */; };
 		9A92E05E204FB66700A21DDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A92E05D204FB66700A21DDD /* AppDelegate.swift */; };
 		9A92E063204FB66700A21DDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A92E061204FB66700A21DDD /* Main.storyboard */; };
 		9A92E065204FB66700A21DDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A92E064204FB66700A21DDD /* Assets.xcassets */; };
 		9A92E068204FB66700A21DDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A92E066204FB66700A21DDD /* LaunchScreen.storyboard */; };
+		9AC073DD205F768500DEFE3B /* AuthModule.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AC073DC205F768500DEFE3B /* AuthModule.storyboard */; };
+		9AC073DF205F76BD00DEFE3B /* AuthModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC073DE205F76BD00DEFE3B /* AuthModule.swift */; };
+		9AC073E1205F7C5500DEFE3B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC073E0205F7C5500DEFE3B /* LoginView.swift */; };
 		E3814CA533B5602BA447B5F4 /* Pods_MySwiftHackathon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D86D83039328F0A0EA1EBA1 /* Pods_MySwiftHackathon.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4D86D83039328F0A0EA1EBA1 /* Pods_MySwiftHackathon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MySwiftHackathon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		64E64BF48CC038E5047B04F1 /* Pods-MySwiftHackathon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySwiftHackathon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MySwiftHackathon/Pods-MySwiftHackathon.debug.xcconfig"; sourceTree = "<group>"; };
-		9A35CA272058EC9000B38B68 /* SwipeTableViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SwipeTableViewController.storyboard; sourceTree = "<group>"; };
-		9A5B695020563227008E9D6A /* TableModuleViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TableModuleViewController.storyboard; sourceTree = "<group>"; };
+		9A35CA272058EC9000B38B68 /* SwipeTable.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SwipeTable.storyboard; sourceTree = "<group>"; };
+		9A5B695020563227008E9D6A /* TableModule.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TableModule.storyboard; sourceTree = "<group>"; };
 		9A5B695220563235008E9D6A /* SwipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTableViewController.swift; sourceTree = "<group>"; };
 		9A5B6958205640DD008E9D6A /* ViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtensions.swift; sourceTree = "<group>"; };
-		9A5B695F20565132008E9D6A /* TableModuleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableModuleViewController.swift; sourceTree = "<group>"; };
+		9A5B695F20565132008E9D6A /* TableModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableModule.swift; sourceTree = "<group>"; };
 		9A876F74204FEA940037CE8E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		9A92E05A204FB66700A21DDD /* MySwiftHackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySwiftHackathon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A92E05D204FB66700A21DDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -35,6 +38,9 @@
 		9A92E064204FB66700A21DDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A92E067204FB66700A21DDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A92E069204FB66700A21DDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AC073DC205F768500DEFE3B /* AuthModule.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AuthModule.storyboard; sourceTree = "<group>"; };
+		9AC073DE205F76BD00DEFE3B /* AuthModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthModule.swift; sourceTree = "<group>"; };
+		9AC073E0205F7C5500DEFE3B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		CBA24E26C58091027075F773 /* Pods-MySwiftHackathon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySwiftHackathon.release.xcconfig"; path = "Pods/Target Support Files/Pods-MySwiftHackathon/Pods-MySwiftHackathon.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,7 +77,7 @@
 		9A5B694F20563212008E9D6A /* SwipeTableModule */ = {
 			isa = PBXGroup;
 			children = (
-				9A35CA272058EC9000B38B68 /* SwipeTableViewController.storyboard */,
+				9A35CA272058EC9000B38B68 /* SwipeTable.storyboard */,
 				9A5B695220563235008E9D6A /* SwipeTableViewController.swift */,
 			);
 			path = SwipeTableModule;
@@ -80,6 +86,7 @@
 		9A5B695420563DA3008E9D6A /* AdditionalModules */ = {
 			isa = PBXGroup;
 			children = (
+				9AC073DB205F766C00DEFE3B /* AuthModule */,
 				9A5B695E205650D1008E9D6A /* TableModule */,
 			);
 			path = AdditionalModules;
@@ -104,8 +111,8 @@
 		9A5B695E205650D1008E9D6A /* TableModule */ = {
 			isa = PBXGroup;
 			children = (
-				9A5B695020563227008E9D6A /* TableModuleViewController.storyboard */,
-				9A5B695F20565132008E9D6A /* TableModuleViewController.swift */,
+				9A5B695020563227008E9D6A /* TableModule.storyboard */,
+				9A5B695F20565132008E9D6A /* TableModule.swift */,
 				9A5B694F20563212008E9D6A /* SwipeTableModule */,
 			);
 			path = TableModule;
@@ -143,6 +150,16 @@
 			path = MySwiftHackathon;
 			sourceTree = "<group>";
 		};
+		9AC073DB205F766C00DEFE3B /* AuthModule */ = {
+			isa = PBXGroup;
+			children = (
+				9AC073DE205F76BD00DEFE3B /* AuthModule.swift */,
+				9AC073E0205F7C5500DEFE3B /* LoginView.swift */,
+				9AC073DC205F768500DEFE3B /* AuthModule.storyboard */,
+			);
+			path = AuthModule;
+			sourceTree = "<group>";
+		};
 		C7664F29FC6E0CDB6F3EADBF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -158,8 +175,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A92E06C204FB66700A21DDD /* Build configuration list for PBXNativeTarget "MySwiftHackathon" */;
 			buildPhases = (
-				9A5B696120565E75008E9D6A /* ShellScript */,
 				43C75061E1AAA2C231EFAF56 /* [CP] Check Pods Manifest.lock */,
+				9A5B696120565E75008E9D6A /* ShellScript */,
 				9A92E056204FB66700A21DDD /* Sources */,
 				9A92E057204FB66700A21DDD /* Frameworks */,
 				9A92E058204FB66700A21DDD /* Resources */,
@@ -217,8 +234,9 @@
 				9A92E068204FB66700A21DDD /* LaunchScreen.storyboard in Resources */,
 				9A92E065204FB66700A21DDD /* Assets.xcassets in Resources */,
 				9A92E063204FB66700A21DDD /* Main.storyboard in Resources */,
-				9A5B695120563227008E9D6A /* TableModuleViewController.storyboard in Resources */,
-				9A35CA282058EC9000B38B68 /* SwipeTableViewController.storyboard in Resources */,
+				9A5B695120563227008E9D6A /* TableModule.storyboard in Resources */,
+				9AC073DD205F768500DEFE3B /* AuthModule.storyboard in Resources */,
+				9A35CA282058EC9000B38B68 /* SwipeTable.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +287,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "${PODS_ROOT}/SwiftLint/swiftlint";
+			shellScript = "";
 		};
 		FAAE837D8C16AA5C68314BEE /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -277,9 +295,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MySwiftHackathon/Pods-MySwiftHackathon-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -293,10 +314,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AC073DF205F76BD00DEFE3B /* AuthModule.swift in Sources */,
 				9A876F75204FEA940037CE8E /* MainViewController.swift in Sources */,
 				9A5B695320563235008E9D6A /* SwipeTableViewController.swift in Sources */,
-				9A5B696020565132008E9D6A /* TableModuleViewController.swift in Sources */,
+				9A5B696020565132008E9D6A /* TableModule.swift in Sources */,
 				9A5B6959205640DD008E9D6A /* ViewControllerExtensions.swift in Sources */,
+				9AC073E1205F7C5500DEFE3B /* LoginView.swift in Sources */,
 				9A92E05E204FB66700A21DDD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
