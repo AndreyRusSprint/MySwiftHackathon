@@ -3,6 +3,6 @@ use_frameworks!
 
 target 'MySwiftHackathon' do
     
-    pod 'SwiftLint'
-
+    pod 'SnapKit', '~> 4.0.0'
+    
 end

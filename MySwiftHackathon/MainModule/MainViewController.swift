@@ -15,8 +15,14 @@ class MainViewController: UIViewController {
     }
     
     @IBAction func openTableModule(_ sender: UIButton) {
-        if let firstModuleVC = TableModuleViewController.storyboardInstance() {
-            self.navigationController?.pushViewController(firstModuleVC, animated: true)
+        if let tableModule = TableModule.storyboardInstance() {
+            self.navigationController?.pushViewController(tableModule, animated: true)
+        }
+    }
+    
+    @IBAction func openAuthModule(_ sender: UIButton) {
+        if let authModule = AuthModule.storyboardInstance() {
+            self.navigationController?.pushViewController(authModule, animated: true)
         }
     }
 }
