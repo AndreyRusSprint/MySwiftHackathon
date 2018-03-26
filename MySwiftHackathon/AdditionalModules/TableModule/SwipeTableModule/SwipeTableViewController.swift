@@ -16,6 +16,7 @@ class SwipeTableViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        tableView.backgroundColor = .lightGray
     }
     
     @IBAction func addItem(_ sender: UIBarButtonItem) {
@@ -32,7 +33,10 @@ extension SwipeTableViewController: UITableViewDelegate, UITableViewDataSource {
             self.numbersArray.remove(at: indexPath.row)
             self.tableView.deleteRows(at: [indexPath], with: .automatic)
         }
-        return [delete]
+        let info = UITableViewRowAction(style: .normal, title: "Info") { _, _ in
+            
+        }
+        return [delete, info]
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -44,8 +48,14 @@ extension SwipeTableViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        cell.textLabel?.text = "\(numbersArray[indexPath.row])"
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! SwipeTableViewCell
+        cell.titleLbl.text = "Title"
+        cell.descriptionLbl.text = "Description"
+        cell.additionalLbl.text = "\(numbersArray[indexPath.row])"
         return cell
+    }
+    
+    @objc func printHello() {
+        print("Hello")
     }
 }
