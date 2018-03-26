@@ -17,21 +17,13 @@
                     <view key="view" contentMode="scaleToFill" id="Vna-e7-Pcp">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fs2-jR-MwG">
-                                <rect key="frame" x="16" y="79" width="343" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.73155477560000004" green="0.88853339210000004" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="SwipeCells"/>
-                                <connections>
-                                    <segue destination="xnm-XM-14y" kind="show" id="jJ9-CM-yZE"/>
-                                </connections>
-                            </button>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="C4u-Xx-iOW"/>
                     </view>
                     <navigationItem key="navigationItem" title="TableModule" id="f5y-IS-qW0"/>
+                    <connections>
+                        <segue destination="xnm-XM-14y" kind="show" identifier="segue" id="x7P-XU-jMh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P7X-tV-ROg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

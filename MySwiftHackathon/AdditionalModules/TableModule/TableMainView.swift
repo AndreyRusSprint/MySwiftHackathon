@@ -1,21 +1,20 @@
 //
-//  MainView.swift
+//  TableMainView.swift
 //  MySwiftHackathon
 //
-//  Created by macmini on 20.03.2018.
+//  Created by macmini on 21.03.2018.
 //  Copyright © 2018 macmini. All rights reserved.
 //
 
 import UIKit
 import SnapKit
 
-class MainView: UIView {
+class TableMainView: UIView {
     
     let btnWidth: CGFloat = 120
     
     //MARK: Buttons
-    var openTableBtn: UIButton!
-    var openAuthBtn: UIButton!
+    var swipeCellsBtn: UIButton!
     
     init() {
         super.init(frame: CGRect.zero)
@@ -26,26 +25,17 @@ class MainView: UIView {
         super.init(coder: aDecoder)
     }
     
-    
     private func setupButtons() {
         
-        openTableBtn = getCustomButton(title: "TableViewModule")
-        self.addSubview(openTableBtn)
-        openTableBtn.snp.makeConstraints { make in
+        swipeCellsBtn = getCustomButton(title: "SwipeCells")
+        self.addSubview(swipeCellsBtn)
+        swipeCellsBtn.snp.makeConstraints { make in
             make.top.equalTo(self).offset(80.0)
             make.left.equalTo(self).offset(8.0)
             make.right.equalTo(self).offset(-8.0)
             make.width.equalTo(btnWidth)
         }
         
-        openAuthBtn = getCustomButton(title: "AuthModule (SnapKit)")
-        self.addSubview(openAuthBtn)
-        openAuthBtn.snp.makeConstraints { make in
-            make.top.equalTo(openTableBtn.snp.bottom).offset(20)
-            make.left.equalTo(openTableBtn)
-            make.right.equalTo(openTableBtn)
-            make.width.equalTo(btnWidth)
-        }
     }
     
     private func getCustomButton(title: String) -> UIButton {

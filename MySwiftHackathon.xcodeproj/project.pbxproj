@@ -13,6 +13,8 @@
 		9A5B695320563235008E9D6A /* SwipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5B695220563235008E9D6A /* SwipeTableViewController.swift */; };
 		9A5B6959205640DD008E9D6A /* ViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5B6958205640DD008E9D6A /* ViewControllerExtensions.swift */; };
 		9A5B696020565132008E9D6A /* TableModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5B695F20565132008E9D6A /* TableModule.swift */; };
+		9A5E25DF2061F7FF002FBB67 /* SwipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5E25DE2061F7FF002FBB67 /* SwipeTableViewCell.swift */; };
+		9A5E25E1206203D6002FBB67 /* TableMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5E25E0206203D6002FBB67 /* TableMainView.swift */; };
 		9A876F75204FEA940037CE8E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A876F74204FEA940037CE8E /* MainViewController.swift */; };
 		9A92E05E204FB66700A21DDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A92E05D204FB66700A21DDD /* AppDelegate.swift */; };
 		9A92E063204FB66700A21DDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A92E061204FB66700A21DDD /* Main.storyboard */; };
@@ -33,6 +35,8 @@
 		9A5B695220563235008E9D6A /* SwipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTableViewController.swift; sourceTree = "<group>"; };
 		9A5B6958205640DD008E9D6A /* ViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtensions.swift; sourceTree = "<group>"; };
 		9A5B695F20565132008E9D6A /* TableModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableModule.swift; sourceTree = "<group>"; };
+		9A5E25DE2061F7FF002FBB67 /* SwipeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTableViewCell.swift; sourceTree = "<group>"; };
+		9A5E25E0206203D6002FBB67 /* TableMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableMainView.swift; sourceTree = "<group>"; };
 		9A876F74204FEA940037CE8E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		9A92E05A204FB66700A21DDD /* MySwiftHackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySwiftHackathon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A92E05D204FB66700A21DDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,8 +84,9 @@
 		9A5B694F20563212008E9D6A /* SwipeTableModule */ = {
 			isa = PBXGroup;
 			children = (
-				9A35CA272058EC9000B38B68 /* SwipeTable.storyboard */,
+				9A5E25DE2061F7FF002FBB67 /* SwipeTableViewCell.swift */,
 				9A5B695220563235008E9D6A /* SwipeTableViewController.swift */,
+				9A35CA272058EC9000B38B68 /* SwipeTable.storyboard */,
 			);
 			path = SwipeTableModule;
 			sourceTree = "<group>";
@@ -114,8 +119,9 @@
 		9A5B695E205650D1008E9D6A /* TableModule */ = {
 			isa = PBXGroup;
 			children = (
-				9A5B695020563227008E9D6A /* TableModule.storyboard */,
+				9A5E25E0206203D6002FBB67 /* TableMainView.swift */,
 				9A5B695F20565132008E9D6A /* TableModule.swift */,
+				9A5B695020563227008E9D6A /* TableModule.storyboard */,
 				9A5B694F20563212008E9D6A /* SwipeTableModule */,
 			);
 			path = TableModule;
@@ -318,6 +324,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A1B364D2060F81200A4FF87 /* MainView.swift in Sources */,
+				9A5E25DF2061F7FF002FBB67 /* SwipeTableViewCell.swift in Sources */,
+				9A5E25E1206203D6002FBB67 /* TableMainView.swift in Sources */,
 				9AC073DF205F76BD00DEFE3B /* AuthModule.swift in Sources */,
 				9A876F75204FEA940037CE8E /* MainViewController.swift in Sources */,
 				9A5B695320563235008E9D6A /* SwipeTableViewController.swift in Sources */,
